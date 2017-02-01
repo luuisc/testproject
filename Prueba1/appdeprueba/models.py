@@ -9,3 +9,6 @@ class Maestro(models.Model):
 
 class Puta(models.Model)
 	apellido = models.CharField()
+
+class Clase(models.Model):
+	classroom = models.IntegerField()
