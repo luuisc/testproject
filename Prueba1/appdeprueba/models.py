@@ -6,3 +6,6 @@ class Alumno(models.Model):
 	
 class Maestro(models.Model):
 	name = models.CharField()
+
+class Clase(models.Model):
+	classroom = models.IntegerField()
